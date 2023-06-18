@@ -30,8 +30,7 @@ class HomePage extends StatelessWidget {
             child: Column(
               children: [
                 const CircleAvatar(
-                  backgroundImage: NetworkImage(
-                      "https://cdn.pixabay.com/photo/2017/08/10/03/47/guy-2617866_1280.jpg"),
+                  backgroundImage:AssetImage('images/graduate.jpg'), 
                   radius: 50,
                   backgroundColor: Colors.transparent,
                 ),
@@ -41,7 +40,7 @@ class HomePage extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(
-                    "Shreeram Poudel",
+                    "Result_App",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 24,
@@ -64,7 +63,7 @@ class HomePage extends StatelessWidget {
                           ListTile(
                             leading: Icon(
                               drawerList[index].icon,
-                              color: Color.fromARGB(255, 255, 255, 255),
+                              color: const Color.fromARGB(255, 255, 255, 255),
                             ),
                             title: Text(
                               drawerList[index].title,
@@ -117,7 +116,7 @@ class HomePage extends StatelessWidget {
           crossAxisCount: 2,
           children: const [
             Readbox(
-              "SEE Result",
+              "SEE Results",
                            "http://see.gov.np/exam/results",
             ),
             Readbox(

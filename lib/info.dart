@@ -10,8 +10,8 @@ class DrawerData {
 List<DrawerData> drawerList = [
   DrawerData(title: "Home", icon: Icons.home,),
   DrawerData(title: "Contact Us", icon: Icons.phone),
+  DrawerData(title: "Address", icon: Icons.location_city_outlined),
   DrawerData(title: "Favorites", icon: Icons.favorite),
-  DrawerData(title: "Profile", icon: Icons.person),
-  DrawerData(title: "Tokens", icon: Icons.attach_money),
   DrawerData(title: "Settings", icon: Icons.settings),
+  DrawerData(title: "Info", icon: Icons.info),
 ];
